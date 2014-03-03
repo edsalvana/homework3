@@ -19,6 +19,7 @@
 		DEA4519218C3FC11001BEC81 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEA4517A18C3FC11001BEC81 /* UIKit.framework */; };
 		DEA4519A18C3FC11001BEC81 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DEA4519818C3FC11001BEC81 /* InfoPlist.strings */; };
 		DEA4519C18C3FC11001BEC81 /* homework3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = DEA4519B18C3FC11001BEC81 /* homework3Tests.m */; };
+		DEA451A718C4021D001BEC81 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEA451A618C4021D001BEC81 /* MainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		DEA4519718C3FC11001BEC81 /* homework3Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "homework3Tests-Info.plist"; sourceTree = "<group>"; };
 		DEA4519918C3FC11001BEC81 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DEA4519B18C3FC11001BEC81 /* homework3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = homework3Tests.m; sourceTree = "<group>"; };
+		DEA451A518C4021D001BEC81 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		DEA451A618C4021D001BEC81 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +114,8 @@
 				DEA4518618C3FC11001BEC81 /* AppDelegate.m */,
 				DEA4518818C3FC11001BEC81 /* Images.xcassets */,
 				DEA4517D18C3FC11001BEC81 /* Supporting Files */,
+				DEA451A518C4021D001BEC81 /* MainViewController.h */,
+				DEA451A618C4021D001BEC81 /* MainViewController.m */,
 			);
 			path = homework3;
 			sourceTree = "<group>";
@@ -240,6 +245,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DEA4518718C3FC11001BEC81 /* AppDelegate.m in Sources */,
+				DEA451A718C4021D001BEC81 /* MainViewController.m in Sources */,
 				DEA4518318C3FC11001BEC81 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
