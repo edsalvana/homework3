@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE02AF6718CD45F300015FE8 /* EditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE02AF6518CD45F300015FE8 /* EditViewController.m */; };
+		DE02AF6818CD45F300015FE8 /* EditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE02AF6618CD45F300015FE8 /* EditViewController.xib */; };
 		DEA4517718C3FC11001BEC81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEA4517618C3FC11001BEC81 /* Foundation.framework */; };
 		DEA4517918C3FC11001BEC81 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEA4517818C3FC11001BEC81 /* CoreGraphics.framework */; };
 		DEA4517B18C3FC11001BEC81 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEA4517A18C3FC11001BEC81 /* UIKit.framework */; };
@@ -33,20 +35,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DEA4517318C3FC11001BEC81 /* homework3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = homework3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE02AF6418CD45F300015FE8 /* EditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditViewController.h; sourceTree = "<group>"; };
+		DE02AF6518CD45F300015FE8 /* EditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditViewController.m; sourceTree = "<group>"; };
+		DE02AF6618CD45F300015FE8 /* EditViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EditViewController.xib; sourceTree = "<group>"; };
+		DEA4517318C3FC11001BEC81 /* homework4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = homework4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEA4517618C3FC11001BEC81 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DEA4517818C3FC11001BEC81 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		DEA4517A18C3FC11001BEC81 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		DEA4517E18C3FC11001BEC81 /* homework3-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "homework3-Info.plist"; sourceTree = "<group>"; };
+		DEA4517E18C3FC11001BEC81 /* homework4-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "homework4-Info.plist"; sourceTree = "<group>"; };
 		DEA4518018C3FC11001BEC81 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DEA4518218C3FC11001BEC81 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DEA4518418C3FC11001BEC81 /* homework3-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "homework3-Prefix.pch"; sourceTree = "<group>"; };
+		DEA4518418C3FC11001BEC81 /* homework4-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "homework4-Prefix.pch"; sourceTree = "<group>"; };
 		DEA4518518C3FC11001BEC81 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DEA4518618C3FC11001BEC81 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		DEA4518818C3FC11001BEC81 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		DEA4518E18C3FC11001BEC81 /* homework3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = homework3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEA4518E18C3FC11001BEC81 /* homework4Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = homework4Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEA4518F18C3FC11001BEC81 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		DEA4519718C3FC11001BEC81 /* homework3Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "homework3Tests-Info.plist"; sourceTree = "<group>"; };
+		DEA4519718C3FC11001BEC81 /* homework4Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "homework4Tests-Info.plist"; sourceTree = "<group>"; };
 		DEA4519918C3FC11001BEC81 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DEA4519B18C3FC11001BEC81 /* homework3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = homework3Tests.m; sourceTree = "<group>"; };
 		DEA451A518C4021D001BEC81 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
@@ -80,8 +85,8 @@
 		DEA4516A18C3FC11001BEC81 = {
 			isa = PBXGroup;
 			children = (
-				DEA4517C18C3FC11001BEC81 /* homework3 */,
-				DEA4519518C3FC11001BEC81 /* homework3Tests */,
+				DEA4517C18C3FC11001BEC81 /* homework4 */,
+				DEA4519518C3FC11001BEC81 /* homework4Tests */,
 				DEA4517518C3FC11001BEC81 /* Frameworks */,
 				DEA4517418C3FC11001BEC81 /* Products */,
 			);
@@ -90,8 +95,8 @@
 		DEA4517418C3FC11001BEC81 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DEA4517318C3FC11001BEC81 /* homework3.app */,
-				DEA4518E18C3FC11001BEC81 /* homework3Tests.xctest */,
+				DEA4517318C3FC11001BEC81 /* homework4.app */,
+				DEA4518E18C3FC11001BEC81 /* homework4Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -107,7 +112,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DEA4517C18C3FC11001BEC81 /* homework3 */ = {
+		DEA4517C18C3FC11001BEC81 /* homework4 */ = {
 			isa = PBXGroup;
 			children = (
 				DEA4518518C3FC11001BEC81 /* AppDelegate.h */,
@@ -116,34 +121,39 @@
 				DEA4517D18C3FC11001BEC81 /* Supporting Files */,
 				DEA451A518C4021D001BEC81 /* MainViewController.h */,
 				DEA451A618C4021D001BEC81 /* MainViewController.m */,
+				DE02AF6418CD45F300015FE8 /* EditViewController.h */,
+				DE02AF6518CD45F300015FE8 /* EditViewController.m */,
+				DE02AF6618CD45F300015FE8 /* EditViewController.xib */,
 			);
+			name = homework4;
 			path = homework3;
 			sourceTree = "<group>";
 		};
 		DEA4517D18C3FC11001BEC81 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				DEA4517E18C3FC11001BEC81 /* homework3-Info.plist */,
+				DEA4517E18C3FC11001BEC81 /* homework4-Info.plist */,
 				DEA4517F18C3FC11001BEC81 /* InfoPlist.strings */,
 				DEA4518218C3FC11001BEC81 /* main.m */,
-				DEA4518418C3FC11001BEC81 /* homework3-Prefix.pch */,
+				DEA4518418C3FC11001BEC81 /* homework4-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		DEA4519518C3FC11001BEC81 /* homework3Tests */ = {
+		DEA4519518C3FC11001BEC81 /* homework4Tests */ = {
 			isa = PBXGroup;
 			children = (
 				DEA4519B18C3FC11001BEC81 /* homework3Tests.m */,
 				DEA4519618C3FC11001BEC81 /* Supporting Files */,
 			);
+			name = homework4Tests;
 			path = homework3Tests;
 			sourceTree = "<group>";
 		};
 		DEA4519618C3FC11001BEC81 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				DEA4519718C3FC11001BEC81 /* homework3Tests-Info.plist */,
+				DEA4519718C3FC11001BEC81 /* homework4Tests-Info.plist */,
 				DEA4519818C3FC11001BEC81 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -152,9 +162,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DEA4517218C3FC11001BEC81 /* homework3 */ = {
+		DEA4517218C3FC11001BEC81 /* homework4 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DEA4519F18C3FC11001BEC81 /* Build configuration list for PBXNativeTarget "homework3" */;
+			buildConfigurationList = DEA4519F18C3FC11001BEC81 /* Build configuration list for PBXNativeTarget "homework4" */;
 			buildPhases = (
 				DEA4516F18C3FC11001BEC81 /* Sources */,
 				DEA4517018C3FC11001BEC81 /* Frameworks */,
@@ -164,14 +174,14 @@
 			);
 			dependencies = (
 			);
-			name = homework3;
+			name = homework4;
 			productName = homework3;
-			productReference = DEA4517318C3FC11001BEC81 /* homework3.app */;
+			productReference = DEA4517318C3FC11001BEC81 /* homework4.app */;
 			productType = "com.apple.product-type.application";
 		};
-		DEA4518D18C3FC11001BEC81 /* homework3Tests */ = {
+		DEA4518D18C3FC11001BEC81 /* homework4Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DEA451A218C3FC11001BEC81 /* Build configuration list for PBXNativeTarget "homework3Tests" */;
+			buildConfigurationList = DEA451A218C3FC11001BEC81 /* Build configuration list for PBXNativeTarget "homework4Tests" */;
 			buildPhases = (
 				DEA4518A18C3FC11001BEC81 /* Sources */,
 				DEA4518B18C3FC11001BEC81 /* Frameworks */,
@@ -182,9 +192,9 @@
 			dependencies = (
 				DEA4519418C3FC11001BEC81 /* PBXTargetDependency */,
 			);
-			name = homework3Tests;
+			name = homework4Tests;
 			productName = homework3Tests;
-			productReference = DEA4518E18C3FC11001BEC81 /* homework3Tests.xctest */;
+			productReference = DEA4518E18C3FC11001BEC81 /* homework4Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -201,7 +211,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DEA4516E18C3FC11001BEC81 /* Build configuration list for PBXProject "homework3" */;
+			buildConfigurationList = DEA4516E18C3FC11001BEC81 /* Build configuration list for PBXProject "homework4" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -213,8 +223,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DEA4517218C3FC11001BEC81 /* homework3 */,
-				DEA4518D18C3FC11001BEC81 /* homework3Tests */,
+				DEA4517218C3FC11001BEC81 /* homework4 */,
+				DEA4518D18C3FC11001BEC81 /* homework4Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -224,6 +234,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE02AF6818CD45F300015FE8 /* EditViewController.xib in Resources */,
 				DEA4518118C3FC11001BEC81 /* InfoPlist.strings in Resources */,
 				DEA4518918C3FC11001BEC81 /* Images.xcassets in Resources */,
 			);
@@ -244,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE02AF6718CD45F300015FE8 /* EditViewController.m in Sources */,
 				DEA4518718C3FC11001BEC81 /* AppDelegate.m in Sources */,
 				DEA451A718C4021D001BEC81 /* MainViewController.m in Sources */,
 				DEA4518318C3FC11001BEC81 /* main.m in Sources */,
@@ -263,7 +275,7 @@
 /* Begin PBXTargetDependency section */
 		DEA4519418C3FC11001BEC81 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DEA4517218C3FC11001BEC81 /* homework3 */;
+			target = DEA4517218C3FC11001BEC81 /* homework4 */;
 			targetProxy = DEA4519318C3FC11001BEC81 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -366,9 +378,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "homework3/homework3-Prefix.pch";
-				INFOPLIST_FILE = "homework3/homework3-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "homework3/homework4-Prefix.pch";
+				INFOPLIST_FILE = "homework3/homework4-Info.plist";
+				PRODUCT_NAME = homework4;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -379,9 +391,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "homework3/homework3-Prefix.pch";
-				INFOPLIST_FILE = "homework3/homework3-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "homework3/homework4-Prefix.pch";
+				INFOPLIST_FILE = "homework3/homework4-Info.plist";
+				PRODUCT_NAME = homework4;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -402,8 +414,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "homework3Tests/homework3Tests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "homework3Tests/homework4Tests-Info.plist";
+				PRODUCT_NAME = homework4Tests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -421,8 +433,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "homework3/homework3-Prefix.pch";
-				INFOPLIST_FILE = "homework3Tests/homework3Tests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "homework3Tests/homework4Tests-Info.plist";
+				PRODUCT_NAME = homework4Tests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -431,7 +443,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DEA4516E18C3FC11001BEC81 /* Build configuration list for PBXProject "homework3" */ = {
+		DEA4516E18C3FC11001BEC81 /* Build configuration list for PBXProject "homework4" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DEA4519D18C3FC11001BEC81 /* Debug */,
@@ -440,21 +452,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DEA4519F18C3FC11001BEC81 /* Build configuration list for PBXNativeTarget "homework3" */ = {
+		DEA4519F18C3FC11001BEC81 /* Build configuration list for PBXNativeTarget "homework4" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DEA451A018C3FC11001BEC81 /* Debug */,
 				DEA451A118C3FC11001BEC81 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		DEA451A218C3FC11001BEC81 /* Build configuration list for PBXNativeTarget "homework3Tests" */ = {
+		DEA451A218C3FC11001BEC81 /* Build configuration list for PBXNativeTarget "homework4Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DEA451A318C3FC11001BEC81 /* Debug */,
 				DEA451A418C3FC11001BEC81 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

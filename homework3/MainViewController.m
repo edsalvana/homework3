@@ -7,8 +7,10 @@
 //
 
 #import "MainViewController.h"
+#import "EditViewController.h"
 
 @interface MainViewController ()
+@property (strong, atomic) EditViewController *editView;
 @property (strong, atomic) UIImageView *settingsScreen;
 @property (strong, atomic) UIImageView *feedScreen;
 @property (strong, atomic) UIImageView *scrollContainer;
@@ -17,7 +19,6 @@
 @property (atomic, assign) BOOL isModeSetting;
 @property (atomic, assign) CGFloat const scrollContainerMin;
 @property (atomic, assign) CGFloat const scrollContainerMax;
-
 @end
 
 @implementation MainViewController
@@ -53,6 +54,9 @@ CGFloat screenHeight;
     screenWidth = screenRect.size.width;
     screenHeight = screenRect.size.height;
     
+
+    
+    
 	//set up image views
     UIImage *settingsImage = [UIImage imageNamed:@"settings.png"];
     UIImage *coverImage = [UIImage imageNamed:@"cover.png"];
@@ -74,8 +78,18 @@ CGFloat screenHeight;
     self.scrollView.contentSize = CGSizeMake( self.scrollContainer.frame.size.width, self.scrollContainer.frame.size.height);
     self.scrollView.clipsToBounds = NO;
     
+    //add edit view
+    self.editView = [[ EditViewController alloc ] init ];
+    
+    //setup edit button inside settings screen
+    UIButton *editButton = [[UIButton alloc] init];
+    editButton.frame = CGRectMake( 0, 300, 320, 100);
+    [editButton addTarget:self action:@selector(showEditModal:) forControlEvents:UIControlEventTouchUpInside];
+    self.settingsScreen.userInteractionEnabled = YES;
+    
     //add views
     [self.view addSubview:self.settingsScreen ];
+    [self.settingsScreen addSubview:editButton ];
     [self.view addSubview:self.feedScreen ];
     [self.scrollView addSubview:self.scrollContainer];
     [self.feedScreen addSubview:self.scrollView];
@@ -90,8 +104,22 @@ CGFloat screenHeight;
     tapGestureRecognizer.numberOfTapsRequired = 1;
     [self.feedScreen addGestureRecognizer:tapGestureRecognizer];
     
+
 }
 
+- (IBAction)showEditModal:(id) sender {
+    NSLog(@"sdfsdf");
+    self.editView.modalTransitionStyle = UIModalTransitionStyleCoverVertical;
+    [self presentViewController:self.editView  animated:YES completion:nil];
+    
+    NSTimer *timer = [NSTimer scheduledTimerWithTimeInterval:.5 target:self selector:@selector(animateUp) userInfo:nil repeats:NO];
+
+    
+}
+
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:YES];
+  }
 
 - (void)onCustomPan:(UIPanGestureRecognizer *)panGestureRecognizer {
     
@@ -99,7 +127,7 @@ CGFloat screenHeight;
     CGPoint velocity        = [panGestureRecognizer velocityInView:self.view];
     CGRect frameTarget      = self.feedScreen.frame;
     
-    
+
     if (panGestureRecognizer.state == UIGestureRecognizerStateBegan) {
         
         //get the offset from the top of the frame and where the touch began

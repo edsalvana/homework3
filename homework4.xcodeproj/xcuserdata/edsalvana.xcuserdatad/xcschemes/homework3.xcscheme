@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "DEA4517218C3FC11001BEC81"
                BuildableName = "homework3.app"
-               BlueprintName = "homework3"
-               ReferencedContainer = "container:homework3.xcodeproj">
+               BlueprintName = "homework4"
+               ReferencedContainer = "container:homework4.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,8 +34,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "DEA4518D18C3FC11001BEC81"
                BuildableName = "homework3Tests.xctest"
-               BlueprintName = "homework3Tests"
-               ReferencedContainer = "container:homework3.xcodeproj">
+               BlueprintName = "homework4Tests"
+               ReferencedContainer = "container:homework4.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -44,8 +44,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DEA4517218C3FC11001BEC81"
             BuildableName = "homework3.app"
-            BlueprintName = "homework3"
-            ReferencedContainer = "container:homework3.xcodeproj">
+            BlueprintName = "homework4"
+            ReferencedContainer = "container:homework4.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -63,8 +63,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DEA4517218C3FC11001BEC81"
             BuildableName = "homework3.app"
-            BlueprintName = "homework3"
-            ReferencedContainer = "container:homework3.xcodeproj">
+            BlueprintName = "homework4"
+            ReferencedContainer = "container:homework4.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -81,8 +81,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DEA4517218C3FC11001BEC81"
             BuildableName = "homework3.app"
-            BlueprintName = "homework3"
-            ReferencedContainer = "container:homework3.xcodeproj">
+            BlueprintName = "homework4"
+            ReferencedContainer = "container:homework4.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
